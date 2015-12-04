@@ -32,11 +32,11 @@ def parse_to_int(input):
 
 def parse_to_wrapping(input):
     height, length, width = parse_to_int(input)
-    return wrapping_size(length=length, height=height, width=width)
+    return int(wrapping_size(length=length, height=height, width=width))
 
 def parse_to_ribbon(input):
     height, length, width = parse_to_int(input)
-    return ribbon_size(length=length, height=height, width=width)
+    return int(ribbon_size(length=length, height=height, width=width))
 
 
 if __name__ == "__main__":
