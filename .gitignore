@@ -119,4 +119,6 @@ docs/_build/
 # PyBuilder
 target/
 
+scratch.py
+
 
